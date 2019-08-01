@@ -1,5 +1,5 @@
 # Tekbots Summer 2019 project
-# Authors: Tristan Luther
+# Author: Tristan Luther
 # Date: 8/1/19
 
 #Description:
@@ -20,6 +20,6 @@ for support please contact luthert@oregonstate.edu .
 #Roadmap:
 No potential releases in future.
 
-#Copywright:
+#Copyright:
 © 2019 Copyright Tekbots, All Rights Reserved
 =======
