@@ -1,0 +1,128 @@
+body{
+    background-color: whitesmoke;
+
+}
+
+.don{
+    background-image: url("./don.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+.navbar{
+    background-color: dodgerblue;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.center-obj {
+    margin: auto;
+    padding: 6px;
+  }
+
+.center-text {
+    align-content: center !important;
+    margin: auto;
+  }
+
+.pad{
+    padding: 10px;
+  }
+
+.big-txt{
+    font-size: 20px;
+}
+
+.stack{
+    display: block !important;
+}
+
+.rght{
+    float: right !important;
+}
+
+.left{
+    float: left !important;
+}
+
+.rotateimg180 {
+    -webkit-transform:rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+.rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+.rotateimg270 {
+    -webkit-transform:rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+
+/* These items will appear on the mobile view */
+@media only screen and (max-device-width: 900px){
+    .toobig{
+        display: none !important;
+    }
+    .footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: gray;
+        text-align: center;
+        z-index: 5;
+    }
+    .cent{
+        text-align: center;
+    }
+    .btn{
+        font-size: 50;
+    }
+}
+/* These items will appear on the desktop view */
+@media only screen and (min-device-width: 900px){
+    .toosmall{
+        display: none !important;
+    }
+    .mobile-row{
+        display: none;
+    }
+    .center-obj{
+        text-align: center;
+    }
+    #wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        position: static;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        color: gray;
+        text-align: center;
+        z-index: 5;
+    }
+}
